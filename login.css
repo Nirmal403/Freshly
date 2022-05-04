@@ -1,0 +1,103 @@
+#hero{
+    font-family: FavoritFreshly,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    /* border: 1px solid red; */
+    color: #333;
+    font-size: 53px;
+    line-height: 1.1em;
+    color: #333;
+    font-size: 3rem;
+    line-height: 1.08em;
+    font-weight: 700;
+}
+#details{
+    width: 369px;
+    height: 400px;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+}
+
+
+#details>label{
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: FavoritFreshly,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+   /* border: 1px solid red; */
+    color: #303030;
+    text-align: left;
+}
+
+#email{
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent transparent #d0d0d0;
+    background-color: #f7f7f7;
+    display: block;
+    width: 90%;
+    /* padding: 8px 12px; */
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    /* border: 1px solid red; */
+    margin-top:15px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5px;
+    
+   
+
+}
+#zip{
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent transparent #d0d0d0;
+    background-color: #f7f7f7;
+    display: block;
+    width: 90%;
+    /* padding: 8px 12px; */
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    outline: none;
+    margin: auto;
+    margin-top:5px;
+    margin-top:15px;
+    
+
+}
+#email:focus{
+    outline: 0.5px solid #3167ff;
+}
+
+
+#zip:focus{
+    outline: 0.5px solid #3167ff;
+}
+
+/* #zipcode{
+    display: flex;
+} */
+
+#explore{
+
+    height: 40px;
+    align-items: center;
+    background-color: #3167ff;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    border:1px solid #3167ff;
+    width: 90%;
+    margin-left: 0px;
+    margin-top:15px;
+    /* margin: auto; */
+    /* border:2px solid red; */
+}

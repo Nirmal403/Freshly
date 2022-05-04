@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div id="navbarz"></div>
+    <div id="emptyspace"></div>
+
+
+    <div id="loginpage">
+        <h1 id="hero">
+          Log In
+        </h1>
+    </div>
+    <div id="details">
+        <label>Email</label> <br>  
+        <input id="email" placeholder ="you@domain.com" >
+        <br>
+        <label>Password</label>
+        <br>
+        <div id="zipcode">
+         <input id="zip" placeholder ="enter password"> 
+         <button id="explore">Login</button>
+        </div>
+    </div>
+
+
+    <div id="footerz"></div>
+
+</body>
+</html>
+
+
+<script type="module">
+
+
+    // navbar import export
+    
+        import navbar from "./navbar.js";
+        // console.log(navbar);
+    
+        let nav = document.getElementById("navbarz");
+    
+        nav.innerHTML = navbar();
+    
+    
+        
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    
+    
+    
+    
+    //navbar
+       
+    var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar1").style.top = "0";
+        } else {
+          document.getElementById("navbar1").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    
+    
+    
+    
+      // //footer C
+      import footer from "./footer.js";
+      
+    
+      let foot = document.getElementById("footerz");
+      foot.innerHTML = footer();
+    
+    
+    </script>
+    
+
+

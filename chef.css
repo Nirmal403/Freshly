@@ -1,0 +1,725 @@
+#chef{
+    margin-top: 130px;
+    width: 100%;
+    display: flex;
+    height: 550px;
+    /* border: 1px solid red; */
+}
+#chef>div{
+    width: 50%;
+    /* border: 1px solid red; */
+
+}
+#lady>img{
+    width: 100%;
+    height: 500px;
+}
+
+#hero-div{
+    /* border: 1px solid red; */
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    font-size: .875rem;
+    line-height: 1.43em;
+    font-weight: 400;
+    margin-top: 80px;
+    width: 75%;
+    margin-left: 10%;
+}
+
+#hero{
+    
+        margin-bottom: 10px;
+        color: #333;
+        font-size: 53px;
+        line-height: 1.1em;
+        margin: 0 0 24px;
+        color: #333;
+        font-size: 3rem;
+        line-height: 1.08em;
+        font-weight: 700;
+        
+    
+}
+
+
+#hero-text{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    line-height: 1.43em;
+}
+#details>label{
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+#email{
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent transparent #d0d0d0;
+    background-color: #f7f7f7;
+    display: block;
+    width: 100%;
+    /* padding: 8px 12px; */
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    
+    margin-top:5px;
+    
+   
+
+}
+#zip{
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent transparent #d0d0d0;
+    background-color: #f7f7f7;
+    display: block;
+    width: 70%;
+    /* padding: 8px 12px; */
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    outline: none;
+    
+    margin-top:5px;
+    
+
+}
+#email:focus{
+    outline: 0.5px solid #3167ff;
+}
+
+
+#zip:focus{
+    outline: 0.5px solid #3167ff;
+}
+
+#zipcode{
+    display: flex;
+}
+
+#explore{
+    height: 40px;
+    align-items: center;
+    background-color: #3167ff;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    border:1px solid #3167ff;
+    width: 180px;
+    margin-left: 15px;
+    margin-top:5px;
+    /* border:2px solid red; */
+}
+
+#text1{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 70%;
+    color: #333;
+    font-size: 12.8px;
+    line-height: 23px;
+    height: 23px;
+    margin-top:8px;
+}
+#terms{
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+#privacy{
+    margin-left: 5px;
+    
+}
+#terms>a{
+    color:#3167ff;
+}
+#privacy>a{
+    color:#3167ff;
+}
+#text2{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 70%;
+    color: #333;
+    font-size: 12.8px;
+    line-height: 23px;
+    height: 23px;
+}
+
+
+#h1{
+    margin-bottom: 10px;
+    font-size: 48px;
+    margin: 0 0 24px;
+    color: #333;
+    line-height: 1.08em;
+    font-weight: 700;
+    text-align: center;
+    font-family: Favoritfreshly,sans-serif;
+    
+}
+
+#animate{
+    display: flex;
+    height: 321px;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    justify-content: center;
+    
+}
+
+
+#animate>div{
+    height: 321px;
+    width: 250px;
+    /* border: 1px solid red; */
+    padding-right: 16px;
+    padding-left: 16px;
+   
+}
+
+/* 
+#animate1{
+    border: 1px solid red;
+    
+} */
+
+.seg1{
+    /* border: 1px solid red; */
+    height: 60%;
+    width: 100%;
+}
+
+.seg2{
+    /* border: 1px solid red; */
+    height: 10%;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+}
+.seg3{
+    /* border: 1px solid red; */
+    height: 10%;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.67em;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+#bgpic1{
+   background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/61f127577dd58a9659fa4545_22_Homepage_OntheMenu_BG_1440%20x%20890.jpg");
+   /* border: 1px solid red; */
+   /* background-color: blue; */
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 70px;
+   
+
+}
+
+#menulist{
+    
+    margin-top: 60px;
+    height: 100%;
+    background-color: white;
+    width: 740px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 32px 48px;
+    /* border: 1px solid red; */
+    margin-bottom: 30px;
+
+    
+}
+
+#meal-card{
+    display: grid;
+    grid-template-columns: repeat(3,213px);
+    grid-template-rows:repeat(2,250px);
+    gap: 15px;
+    /* border: 1px solid red; */
+   
+}
+
+
+/* #meal-card>div{
+   /* border: 1px solid red;    */
+ 
+
+#onmenu{
+    margin-bottom: 10px;
+    font-size: 48px;
+    margin: 0 0 24px;
+    color: #333;
+    line-height: 1.08em;
+    font-weight: 700;
+}
+
+#menulist>p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.33em;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    font-weight: 400;
+}
+
+
+.foodimg{
+    height: 192px;
+    width: 213px;
+    border-radius: 16px;
+}
+.foodimg>img{
+    
+        border: 0;
+        max-width: 100%;
+        /* vertical-align: middle; */
+        display: block;
+        transition: transform 2s;
+        width: 100%;
+        opacity: 1;
+    
+}
+
+.foodname{
+    color: rgb(48, 48, 48);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    line-height: 1.43em;
+    /* border: 1px solid green; */
+    margin-top: -40px;
+    
+}
+.p{
+    height: 14px;
+    font-family: Favoritfreshly,sans-serif;
+    color: #357471;
+    line-height: 1em;
+    /* border: 1px solid red; */
+    font-size: 12px;
+    display: flex;
+    margin-top:6px;
+}
+.p1{
+    height: 20px;
+    font-family: Favoritfreshly,sans-serif;
+    color: #357471;
+    line-height: 1em;
+    /* border: 1px solid red; */
+}
+
+.p>div>a{
+    margin-left: 2px;
+    margin-right: 2px;
+    /* border: 1px solid red; */
+    color:#3167ff;
+    text-decoration: none;
+    
+}
+.p1>a{
+    color:#3167ff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+#viewplan{
+    padding: 13px 16px 12px;
+    background-color: #3167ff;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    border: #3167ff;
+}
+
+
+.foodimg>img:hover{
+    transform: scale(1.1); 
+    opacity: .7;
+  position: relative;
+  z-index: 99;
+  overflow: hidden;
+    
+}
+
+
+#freshly{
+    margin: auto;
+    /* border: 1px solid red; */
+    width: 700px;
+    margin-bottom: 70px;
+    
+}
+#fit{
+    width: 150px;
+    margin: auto;
+    /* border: 1px solid red; */
+    
+}
+#plants{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    font-size: 2.375rem;
+    line-height: 1.16em;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+}
+#save{
+    text-align: center;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    font-size: .875rem;
+    line-height: 1.43em;
+}
+
+
+#meals{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.meal1>a>div>img{
+    width: 224px;
+}
+
+.timemeals{
+    
+    color: #357471;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    font-family: sans-serif;
+    
+}
+.meal1>a{
+    text-decoration: none;
+}
+
+#shipping{
+    margin-bottom: 32px;
+    color: #357471;
+    margin-top: 32px;
+    font-family: Favoritfreshly,sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center;
+}
+#signup{
+    background-color: #3167ff;
+    border:#3167ff;
+    color: white;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    /* text-transform: none; */
+    justify-content: center;
+    
+    /* margin: auto; */
+    text-align: center;
+    margin-left: 48%;
+    margin-bottom: 32px;
+}
+
+#signup>a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#others{
+    margin-bottom: 10px;
+    font-size: 48px;
+    margin: 0 0 24px;
+    color: #333;
+    text-align: center;
+    font-family: Favoritfreshly,sans-serif;
+    line-height: 1.08em;
+    font-weight: 700;
+}
+
+#emptyspace{
+    margin-bottom: 20px;
+    margin-top:20px;
+    /* border: 1px solid indianred; */
+    height: 20px;
+}
+#bgpic2{
+   
+    height: 708px;
+    width:100%;
+    /* border: 4px solid green; */
+    /* margin-top: 50px; */
+    /* width: 1285px; */
+    margin: auto;
+    /* justify-content: center; */
+    display: flex;
+}
+#pic{
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/61f1275059fd961964f53287_22_Homepage_EatingBetterEasy_BG_866x708.jpg");
+    width: 70%;
+    /* justify-content: right; */
+    /* border: 1px solid red; */
+    margin-left: 30%;
+
+}
+#we-believe{
+   
+    width: 950px;
+    background-color: white;
+    height: 284px;
+    /* border: 3px solid blue; */
+    /* margin-right: 400px; */
+    margin-top: 20%;
+    text-align: center;
+    /* margin: auto; */
+    position: relative;
+    left: calc(-50vw + 40%);
+}
+#we-believe>h1{
+    /* margin-bottom: 10px; */
+    margin-top: 40px;
+    margin-left:30px;
+    margin-right: 30px;
+    /* border: 1px solid red; */
+    font-size: 32px;
+    color: #333;
+    line-height: 1.98em;
+    font-weight: 700;
+    font-family: Favoritfreshly,sans-serif;
+    text-align: left;
+}
+
+#we-believe>p{
+    /* margin-bottom: 30px; */
+    /* margin-top: 30px; */
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.33em;
+    font-weight: 00;
+    color: #333;
+    font-family: Favoritfreshly,sans-serif;
+}
+#learnmore{
+    background-color: #3167ff;
+    border:#3167ff;
+    color: white;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    margin-bottom: 32px;
+    margin-right: 81%;
+
+}
+
+
+
+
+#bgpic3{
+    
+    height: 708px;
+    width:100%;
+    /* border: 4px solid green; */
+    /* margin-top: 50px; */
+    /* width: 1285px; */
+    margin: auto;
+    /* justify-content: center; */
+    display: flex;
+}
+#pic1{
+    background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/61f1274f0c096f517bb89ed5_22_Homepage_HealthyMealsDelivered_866x708.jpg");
+    width: 70%;
+    /* justify-content: right; */
+    /* border: 1px solid red; */
+    margin-right: 30%;
+
+}
+#we-believe1{
+   
+    width: 950px;
+    background-color: white;
+    height: 384px;
+    /* border: 3px solid blue; */
+    /* margin-right: 400px; */
+    margin-top: 20%;
+    text-align: center;
+    /* margin: auto; */
+    position: relative;
+    right: calc(-50vw + 40%);
+}
+
+#we-believe1>h1{
+    /* margin-bottom: 10px; */
+    margin-top: 40px;
+    margin-left:30px;
+    margin-right: 30px;
+    /* border: 1px solid red; */
+    font-size: 32px;
+    color: #333;
+    line-height: 1.98em;
+    font-weight: 700;
+    font-family: Favoritfreshly,sans-serif;
+    text-align: left;
+}
+
+#getstarted{
+    background-color: #3167ff;
+    border:#3167ff;
+    color: white;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    width: 240px;
+    text-align: center;
+    margin-bottom: 32px;
+    margin-right: 81%;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+
+
+
+#email1{
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent transparent #d0d0d0;
+    background-color: #f7f7f7;
+    display: block;
+    width: 80%;
+    /* padding: 8px 12px; */
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    
+    margin-top:5px;
+    margin-left: 30px;
+    
+   
+
+}
+#zip1{
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent #d0d0d0;
+    background-color: #f7f7f7;
+    display: block;
+    width: 80%;
+    /* padding: 8px 12px; */
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    outline: none;
+    margin-top:5px;
+    margin-left: 30px;
+    
+}
+
+
+#email1:focus{
+    outline: 0.5px solid #3167ff;
+}
+
+
+#zip1:focus{
+    outline: 0.5px solid #3167ff;
+}
+
+
+.acc{
+    display: flex;
+    background-color: white;
+}
+
+.acc>a{
+    
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: -10px
+}
+.acc>p:first-child{
+    margin-left:30px;
+    /* border: 1px solid red; */
+    margin-top:-10px
+}
+.acc>p:last-child{
+    margin-top:-10px
+}
+.acc>p{
+    margin-top:-10px
+}
+.acc>a{
+    color:#3167ff;
+}
+
+
+
+
+
+

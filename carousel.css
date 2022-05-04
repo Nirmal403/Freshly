@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
+
+.carousel-cell-h::before{
+    display:none;
+}
+.carousel-cell-h>img{
+    /* width:360px; */
+    height: 160px;
+    margin: auto;
+   border-radius: 10px;
+   /* border: 1px solid red; */
+}
+.carousel-cell-h{
+    width:360px;
+    height:200px;
+    margin:10px;
+    border-radius: 10px;
+    /* border: 1px solid red; */
+   }
+ .main-carousel-h{
+       display:flex;
+       position:relative;
+       display:block;
+       width:81%;
+       margin:auto;
+   }
+#excitement{
+    display:flex;
+    justify-content: space-around;
+    /* height:65px; */
+    margin-left:20px;
+    /* border:1px solid red; */
+    
+    font-family: GoodHeadlineProCondLight,sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.43em;
+}
+
+#review{
+    margin-left:15px;
+    justify-content: space-around;
+    
+}
+.carousel-cell-h>img{
+    height: 24px;
+    order: 0;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#review>p:first-child{
+    
+    /* border: 1px solid red; */
+    text-align: center;
+    color: #333;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    font-size: .875rem;
+    line-height: 1.43em;
+    font-weight: 400;
+    overflow: hidden;
+    height: 60px;
+
+}
+#review>p:last-child{
+    font-weight: 700;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.25em;
+    /* border: 1px solid red; */
+    text-align: center;
+
+}
+
+
+.main-carousel-h{
+    /* border: 3px solid red;  */
+     color: none;
+     width: 1285px;
+}
+
+
+#customerreview{
+    /* border: 2px solid blue; */
+    width: 1285px;
+    height: 250px;
+    margin: auto;
+
+}
+
+#webelieve{
+    border: 1px solid red;
+    width: 750px;
+    padding: 46px;
+}
