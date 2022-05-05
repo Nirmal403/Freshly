@@ -4,39 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freshly | Login</title>
+    <title>Freshly | Signup</title>
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/signup.css">
+    
 </head>
 <body>
     <div id="navbarz"></div>
     <div id="emptyspace"></div>
+   <div id="bgpicsig">
+       <div id="loginpop">
+           <h1>Dinner’s ready!</h1>
+           <h3>Chef-prepared, healthy meals delivered weekly</h3>
+           <div>
+             <input id="email" type="text" placeholder="Email">
+             <input id="zip" type="text" placeholder="Zip">
+             <button id="continue" onclick="storeCredentials()">Continue</button>
+           </div>
+             <div id="already"><p>Already have an account?</p>
+            <a href="./login.html">Login</a></div>
 
+            <div id="text">
+              <div id="text1">
+                <div id="content">By Continuing, you agree to our</div>
+                <div id="terms"><a href=""> Terms</a></div>
+                <div>and</div>
+                <div id="privacy"><a href="">Privacy Policy</a></div>
+                <p id="content1">& will receive from Freshly</p>
+               </div>
+          
+             </div>
 
-    <div id="loginpage">
-        <h1 id="hero">
-          Log In
-        </h1>
-    </div>
-    <div id="details">
-        <label>Email</label> <br>  
-        <input id="email" placeholder ="you@domain.com" >
-        <br>
-        <label>Password</label>
-        <br>
-        <div id="zipcode">
-         <input id="zip" placeholder ="enter password"> 
-         <button id="explore" onclick="getData()">Login</button>
-        </div>
-    </div>
-
-
+            
+       </div>
+   </div>
     <div id="footerz"></div>
-
 </body>
 </html>
-
 
 <script type="module">
 
@@ -91,7 +96,7 @@
     
     
     </script>
-    <script src="./scripts/login.js"></script>
+
+<script src="./scripts/login.js"></script>
     
-
-
+    

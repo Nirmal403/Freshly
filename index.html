@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./navbar.css">
-    <link rel="stylesheet" href="chef.css">
-    <link rel="stylesheet" href="./footer.css">
+    <title>Freshly | Get Started </title>
+    <link class="pro-icon" rel="icon" href="./logo.png">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/chef.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="./styles/carousel.css">
+    <link rel="stylesheet" href="./styles/popup.css">
 </head>
 <body>
     
@@ -32,7 +34,7 @@
          <br>
          <div id="zipcode">
           <input id="zip" placeholder ="11111"> 
-          <button id="explore">Explore Meals</button>
+          <button id="explore" onclick="gotosignup()">Explore Meals</button>
          </div>
          <div id="text">
           <div id="text1">
@@ -94,7 +96,7 @@
           <h1 id="onmenu">On the menu</h1>
           <p>Each Freshly meal is perfectly sized for 1 person to enjoy at 1 sitting. Our fully-prepared meals are delivered fresh, and ready to eat in 3 minutes.</p>
           <div id="meal-card">
-            <div>
+            <div class="popupitem" id="button1" class="signup-m"  id="signup">
               <div class="foodimg"><img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg"></div>
               <div class="foodname">Steak Peppercorn</div>
               <div class="p">
@@ -105,7 +107,7 @@
               </div>
               <div class="p1"><a href="">Single-Serve</a></div>
             </div>
-            <div>
+            <div class="popupitem">
               <div class="foodimg"><img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8686c6708c070e7d41_production-meal-image-e4122aa8-0fe7-4854-b6f5-e27e0c5be918.jpeg"></div>
               <div class="foodname">Homestyle Chicken</div>
               <div class="p">
@@ -116,7 +118,7 @@
               </div>
               <div class="p1"><a href="">Single-Serve</a></div>
             </div>
-            <div>
+            <div class="popupitem" >
               <div class="foodimg"><img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b89b735739065897a4f_production-meal-image-c9eef45a-97a9-487c-9550-71488e5f639a.jpeg"></div>
               <div class="foodname">Cauliflower Shell Beef Bolognese</div>
               <div class="p">
@@ -129,7 +131,7 @@
             </div>
             
             
-            <div>
+            <div class="popupitem" >
               <div class="foodimg"><img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8bdf3b65081fd159c6_production-meal-image-f0de55be-d691-4ade-bc26-b4a8aedaa1fe.jpeg"></div>
               <div class="foodname">Sausage Baked Penne</div>
               <div class="p">
@@ -141,7 +143,7 @@
               <div class="p1"><a href="">Single-Serve</a></div>
             </div>
 
-            <div>
+            <div class="popupitem" >
               <div class="foodimg"><img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61ff6b8e6dd23b60cb122654_production-meal-image-92ec0fc1-d352-4720-9b83-96798ab8d2de.jpeg"></div>
               <div class="foodname">Savory-Sweet Chicken Teriyaki Bowl</div>
               <div class="p">
@@ -152,7 +154,7 @@
               </div>
               <div class="p1"><a href="">Single-Serve</a></div>
             </div>
-            <div>
+            <div class="popupitem" >
               <div class="foodimg"><img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/610640046931cb5d54bd5472_production-meal-image-7a62bb89-9bcb-4f1f-9f0f-d8372698d48e.jpeg"></div>
               <div class="foodname">Protein-Packed Chicken Parm</div>
               <div class="p">
@@ -164,9 +166,10 @@
               <div class="p1"><a href="">Single-Serve</a></div>
             </div>
            
-           
           </div>
-          <button id="viewplan">View Plans & Menu</button>
+
+
+          <button id="viewplan" onclick="viewplanpage()">View Plans & Menu</button>
         </div>
           
       </div>
@@ -206,7 +209,7 @@
 
 
    <p id="shipping">Shipping and tax added at checkout</p>
-    <button id="signup"><a href="#">Sign Up Now</a></button>
+    <button id="signup"><a href="./signup.html">Sign Up Now</a></button>
 
 
     <div id="others">What Others Are Saying</div>
@@ -333,15 +336,15 @@
       <div id="pic1">
         <div id="we-believe1">
           <h1>Healthy Meals Delivered Weekly</h1> 
-          <input id="email1" placeholder ="freshly@freshly.com" >
+          <input id="email1" id="email" placeholder ="freshly@freshly.com" type="email" >
           <br>
           <div id="zipcode1">
-           <input id="zip1" placeholder ="11111">
-          <button id="getstarted">Get Started!</button>
+           <input id="zip1" id="zip" placeholder ="11111">
+          <button id="getstarted"  onclick="gotosignup()">Get Started!</button>
         </div>
         <div class="acc">
           <p>Already have an account?</p>
-          <a href="#">Log in.</a>
+          <a href="login.html">Log in.</a>
         </div>
         <div class="acc">
          <p>By continuing, you agree to our</p>
@@ -362,63 +365,72 @@
 
 <div id="footerz"></div>
 
-
-    
 </body>
 </html>
 <script type="module">
 
-
-// navbar import export
-
-    import navbar from "./navbar.js";
-    // console.log(navbar);
-
-    let nav = document.getElementById("navbarz");
-
-    nav.innerHTML = navbar();
-
-
+        
+    // navbar import export
     
-  var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-50px";
-    }
-    prevScrollpos = currentScrollPos;
-  }
-
-
-
-
-//navbar
-   
-var prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar1").style.top = "0";
-    } else {
-      document.getElementById("navbar1").style.top = "-50px";
-    }
-    prevScrollpos = currentScrollPos;
-  }
-
-
-
-
-  // //footer C
-  import footer from "./footer.js";
-  
-
-  let foot = document.getElementById("footerz");
-  foot.innerHTML = footer();
-
+    import navbar from "./navbar.js";
+        // console.log(navbar);
+    
+        let nav = document.getElementById("navbarz");
+    
+        nav.innerHTML = navbar();
+    
+    
+        
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    
+    
+    
+    
+    //navbar
+       
+    var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar1").style.top = "0";
+        } else {
+          document.getElementById("navbar1").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    
+    
+    
+    
+      // //footer C
+      import footer from "./footer.js";
+      
+    
+      let foot = document.getElementById("footerz");
+      foot.innerHTML = footer();
+    
+    
 
 </script>
 
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="./scripts/login.js"></script>
+<script src="./scripts/index.js"></script>
+<script src="/Freshly/scripts/popup.js"></script>
+<script> 
+
+  function viewplanpage(){
+    window.location.href="productpage.html"
+  }
+
+</script>

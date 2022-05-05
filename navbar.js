@@ -32,8 +32,8 @@ const navbar=()=>{
             </div>
             <div>
                 <div id="login">
-                    <div id="log"><a href="">Login</a></div>
-                    <button id="sign"><a href="">Sign Up</a></button>
+                    <div id="log"><a href="./login.html">Login</a></div>
+                    <button id="sign"><a href="./signup.html">Sign Up</a></button>
                 </div>
             </div>
     </div>`;

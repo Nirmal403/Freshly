@@ -1,0 +1,99 @@
+#getstarted{
+    background-color: #3167ff;
+    border:#3167ff;
+    color: white;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    width: 240px;
+    text-align: center;
+    margin-right: 81%;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 42%;
+    margin-bottom: 32px;
+}
+
+
+
+#animated{
+    display: flex;
+    height: 321px;
+    width: 95%;
+    /* border: 1px solid red; */
+    margin: auto;
+    justify-content: center;
+    
+}
+
+
+#animated>div{
+    height: 321px;
+    width: 350px;
+    /* border: 1px solid pink; */
+    padding-right: 16px;
+    padding-left: 16px;
+   
+}
+
+/* 
+#animate1{
+    border: 1px solid red;
+    
+} */
+
+.segg1{
+    /* border: 1px solid red; */
+    height: 60%;
+    width: 100%;
+}
+
+.segg2{
+    /* border: 1px solid red; */
+    height: 10%;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: none;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+}
+.segg3{
+    /* border: 1px solid red; */
+    height: 10%;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.67em;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.segg1>img{
+    /* border:1px solid green; */
+    width:100%;
+    height: 100%
+}
+
+#p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    font-size: .875rem;
+    line-height: 1.43em;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
