@@ -97,3 +97,96 @@
     font-weight: 400;
     margin-bottom: 40px;
 }
+
+
+
+/* ///////////////////////////////////////#########################////////////////////// */
+
+#best{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border:3px solid yellowgreen; */
+    /* width:1040px; */
+    gap:14px;
+    height: auto;
+    margin: auto;
+    max-width: 1300px;
+
+}
+
+/* .mainbox{
+    /* border: 2px solid red; */
+    /* width: 307px; */
+    
+    
+
+
+.pic{
+    /* border: 1px solid blue; */
+    width: 315px;
+    height: 290px;
+    border-radius: 16px;
+
+
+    border: 0;
+    /* max-width: 100%; */
+    /* vertical-align: middle; */
+    display: block;
+    transition: transform 2s;
+    width: 100%;
+    opacity: 1;
+    
+}
+
+.pic:hover{
+    transform: scale(1.1); 
+    opacity: .7;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+    
+}
+
+    
+  
+
+
+.proName{
+    /* border: 1px solid yellow; */
+    overflow: hidden;
+    margin-top: 12px;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.25em;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    margin-left: 6px;
+}
+
+
+.info{
+     /* border: 4px solid blueviolet; */
+     display: flex;
+     /* width: 100px; */
+     /* margin-right: 2px; */
+     color: #357471;
+     font-size: 13px;
+     margin-top: -5px;
+     margin-left: 6px;
+     
+}
+
+.minidiv{
+    /* border: 3px solid black; */
+    width: 307px;
+}
+
+.infoe{
+    /* border: 1px solid green; */
+    width: 80%; 
+    display: flex;
+    margin-top: -6px;
+    height: auto;
+}

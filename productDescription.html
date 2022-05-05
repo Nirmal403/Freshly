@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/productDescription.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+    <div id="navbarz"></div>
+    <div id="emptyspace"></div>
+    <div id="emptyspace"></div>
+    <div id="emptyspace"></div> 
+
+
+
+    <div id="mainpage">
+    <div id="main">
+
+        <div id="showdiv">
+           
+        </div>
+       
+       <div id="content">
+        <h3>What makes this dish special</h3>
+        <p>Tender, high-protein flat iron steak, grilled to perfection</p>
+        <p>Bed of creamy mashed potatoes as a hearty accompaniment</p>
+        <p>Side of French green beans and vitamin-rich sautéed carrots tossed with garlic oil, lemon, and herbs</p>
+        <p>Topped with a creamy peppercorn sauce made with yogurt and porcini mushrooms</p>
+        <p>Try finishing your dish with freshly chopped parsley</p>
+        <div id="ingredients">
+            <h3>Ingredients</h3>
+            <div id="ingredientspic">
+                <div>
+                    <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db6548088da9_production-image-7c712299-a728-48ad-bf50-3a87133b24b4.jpeg" alt="">
+                    <p>Green Beans</p>
+                </div>
+                <div>
+                    <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db565e088daa_production-image-ddc396f0-87d5-4588-91d3-bb4ce8e8c6d0.jpeg" alt="">
+                    <p>Flat Iron Steak</p>
+                </div>
+                <div>
+                    <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db3b4b088db9_production-image-ad5c311f-3f0f-404d-b807-09a25acaf372.jpeg" alt="">
+                    <p>Red Potatoes</p>
+                </div>
+                <div>
+                    <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db7e48088dba_production-image-11b08e84-b9f0-4a04-846c-4ac08fe0311b.jpeg" alt="">
+                    <p>Carrot</p>
+                </div>
+                <div>
+                    <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db6a23088dbb_production-image-b4367863-3601-4731-9ea4-29e7e7c60ae5.jpeg" alt="">
+                    <p>Cassavo Flour</p>
+                </div>
+                <div>
+                    <img src="https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319db712c088dbc_production-image-8c69aef5-1989-4986-8f32-f51d0723098e.jpeg" alt="">
+                    <p>Plain Yogurt</p>
+                </div>
+                
+               
+                
+                
+           
+            </div>
+       </div>
+       <div id="protein">
+           <h3>What's inside (info is per serving)</h3>
+            <div id="grid">
+                <div>
+                    <h4>Calories</h4>
+                    <h4>500</h4>
+                </div>
+                <div>
+                    <h4>Carbs</h4>
+                    <h4>38g</h4>
+                </div>
+                <div>
+                    <h4>Total fat</h4>
+                    <h4>26g</h4>
+                </div>
+                <div>
+                    <h4>Protein</h4>
+                    <h4>29g</h4>
+                </div>
+            </div>
+       </div>
+
+
+       
+    </div>
+    </div>
+   
+    
+</div>
+   <div id="emptyspace"></div>
+   <div id="footerz"></div>
+</body>
+</html>
+<script src="./scripts/descriptionpage.js"></script>
+
+<script type ='module'>
+
+            
+    // navbar import export
+    
+    import navbar from "./navbar.js";
+        // console.log(navbar);
+    
+        let nav = document.getElementById("navbarz");
+    
+        nav.innerHTML = navbar();
+    
+    
+        
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    
+    
+    
+    
+    //navbar
+       
+    var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar1").style.top = "0";
+        } else {
+          document.getElementById("navbar1").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      }
+    
+    
+    
+    
+      // //footer C
+      import footer from "./footer.js";
+      
+    
+      let foot = document.getElementById("footerz");
+      foot.innerHTML = footer();
+    
+    
+
+</script>

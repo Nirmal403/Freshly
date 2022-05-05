@@ -1,0 +1,207 @@
+.proName{
+    /* border: 1px solid red; */
+    /* margin: auto;  */
+    width: 195%;
+    font-family: Favoritfreshly,sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.625rem;
+    font-weight: 400;
+    text-transform: none;
+    color: #333;
+    margin-left: 6px;
+}
+
+#main{
+    /* border: px solid red; */
+    width: 50%;
+    /* margin-top: 20px; */
+    height: auto;
+    margin: auto; 
+    background-color: white;
+    display: flex;
+    overflow: scroll;
+    justify-content: center;
+    overflow-x: hidden;
+  
+    
+}
+#mainpage{
+    background-color: rgba(0,0,0,.55);
+    width: 100%;
+   
+}
+
+.info{
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 4px;
+    padding: 6px 10px;
+    border-radius: 100px;
+    background-color: #b8fffa;
+    font-family: Favoritfreshly,sans-serif;
+    color: #333;
+    font-size: .75rem;
+    line-height: 1em;
+    font-weight: 400;
+    justify-content: center; 
+    /* border: 1px solid red; */
+    margin-top: -35px;
+    
+}
+
+.pic{
+    /* border: 1px solid red; */
+    height: 203px;
+    width: 325px;
+    
+}
+
+
+#showdiv{
+    /* border: 3px solid green; */
+    width: 325px;
+    
+}
+#content{
+    /* border: 3px solid blue; */
+    width: 400px;
+    height: 400px;
+    margin-top: 140px;
+    padding: 10px 10px
+    
+
+}
+#content>h3{
+    font-family: Favoritfreshly,sans-serif;
+    font-size: 1rem;
+    line-height: 1.45rem;
+    font-weight: 700;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 70%;
+    margin:auto;
+}
+#content>p{
+    /* display: block; */
+    /* margin-block-start: 1em; */
+    /* margin-block-end: 1em; */
+    /* margin-inline-start: 0px; */
+    /* margin-inline-end: 0px; */
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 85%;
+    font-family: Favoritfreshly,sans-serif;
+    line-height: 1.63em;
+    color: #333;
+    justify-content: center;
+    /* border: 1px solid red; */
+
+    margin: auto;
+
+}
+#ingredients>h3{
+    font-family: Favoritfreshly,sans-serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    /* border: 1px solid red; */
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+#ingredients{
+
+    /* border: 5px solid green; */
+    width: 306px;
+    /* height: 320px; */
+    margin: auto;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 12%);
+    font-family: Favoritfreshly,sans-serif;
+    text-align: left;
+   
+}
+#ingredientspic{
+
+
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+
+}
+
+#ingredientspic>div>img{
+   width: 88px;
+    height:72px;
+
+}
+#ingredientspic>div>p{
+    font-family: Favoritfreshly,sans-serif;
+    font-size: 13px;
+    line-height: 1rem;
+    text-align: center;
+    color: #333;
+
+}
+#protein{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 12%);
+    font-family: Favoritfreshly,sans-serif;
+    text-align: left;
+}
+#protein>h3{
+    font-family: Favoritfreshly,sans-serif;
+    font-size: 1rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+#grid{
+    display: grid;
+    /* border: 1px solid red; */
+    grid-template-columns: repeat(2,139px);
+    margin: auto;
+
+}
+#grid>div{
+    /* border: 1px solid blue; */
+    text-align: center;
+    justify-content: center;
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+#grid>div>h4:first-child{
+    font-weight: 700;
+    font-family: Favoritfreshly,sans-serif;
+    text-align: center;
+    color: #333;
+    font-size: 13px;
+    /* line-height: 16px; */
+}
+
+#grid>div>h4:last-child{
+  
+    color: #666;
+    font-size: 32px;
+    /* line-height: 38px; */
+    font-weight: 300;
+    font-family: Favoritfreshly,sans-serif;
+    text-align: center;
+    padding:0px;
+}
+
+
+
+
