@@ -31,3 +31,52 @@ let showdata = (el)=>{
 }
 
 showdata(checkout);
+
+
+let popup = document.getElementById("popup");
+function onclickNext(){
+
+    var retrievedObject = localStorage.getItem('owner');
+
+var obj ={
+    name: document.getElementById("firstname").value,
+    lastname: document.getElementById("lastname").value,
+    fullname: document.getElementById("fullname").value,
+    address1: document.getElementById("address1").value,
+    address2: document.getElementById("address2").value,
+    city: document.getElementById("city").value,
+    state: document.getElementById("State").value,
+    Zip:document.getElementById("Zip").value,
+    email:document.getElementById("email").value,
+}
+for (var key in obj)
+{
+    localStorage.setItem("owner",JSON.stringify(obj));
+}
+
+
+    // popup.classList.add("open-popup");
+
+
+}
+
+// function closePopup(){
+//     popup.classList.remove("open-popup");
+// }
+
+
+
+
+
+
+
+
+// let popup = document.getElementById("popup");
+
+// function onclickNext(){
+//     popup.classList.add("open-popup");
+// }
+
+// function closePopup(){
+//     popup.classList.remove("open-popup");
+// }

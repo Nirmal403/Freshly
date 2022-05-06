@@ -184,7 +184,7 @@
 #animate>div{
     height: 321px;
     width: 250px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-right: 16px;
     padding-left: 16px;
    
@@ -197,7 +197,7 @@
 } */
 
 .seg1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 60%;
     width: 100%;
 }
