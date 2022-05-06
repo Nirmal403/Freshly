@@ -56,7 +56,9 @@ function getData(){
      (email===user.Phone && pass===user.pass)){
          
          alert('Login Successful')
+        
          window.location.href='index.html'
+        
         
          return 
 

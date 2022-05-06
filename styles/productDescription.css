@@ -202,6 +202,22 @@
     padding:0px;
 }
 
+.addbtn{
+    height: 40px;
+    align-items: center;
+    background-color: #3167ff;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.33em;
+    letter-spacing: .5px;
+    border:1px solid #3167ff;
+    width: 100px;
+    margin-left: 115px;
+    margin-top:15px;
+
+}
+
 
 
 

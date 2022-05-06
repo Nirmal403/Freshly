@@ -41,34 +41,70 @@ let showdata = (el) =>{
         pic.setAttribute('class','pic')
 
 
+        
+
         let addbtn = document.createElement('button')
-        addbtn.innerHTML='ADD TO CART'
+        addbtn.innerHTML='+ Add'
         addbtn.setAttribute('class','addbtn')
 
         addbtn.onclick= function () {
             cartPage(el)
             
         }
-        maindiv.append(title,calories,type,serve,addbtn);
-        picdiv.append(pic);
+        maindiv.append(title,calories,type,serve);
+        picdiv.append(pic,addbtn);
         container.append(maindiv,picdiv);
     })
 }
 
 showdata(description)
-
 //pushing data to cart page
+var count;
+    var arr = JSON.parse(localStorage.getItem("cartPage")) || [];
 function cartPage(e){
     var cartPage = JSON.parse(localStorage.getItem("cartPage"))||[];
     e.quant=1;
     
+
+    
+    
     cartPage.push(e);
+    
     
     localStorage.setItem("cartPage", JSON.stringify(cartPage));
     
      window.location.href = "addtocart.html";
     
+
+
+
+
+
+
+
+
+     event.preventDefault(e);
+     document.getElementById("count").innerHTML="";
+   if(arr == []){
+       count = "";
+   }
+   else{
+       count = arr.length + 1;
+   }
+    document.getElementById("count").append(count);
+     arr.push(e);
+     console.log(arr);
+    localStorage.setItem("add", JSON.stringify(arr))
     }
+
+
+
+    
+    //  function cartPage(e){
+       
+
+    //  }
+
 
     //onmouse over change img function
 // function currentImage1(elem,image){

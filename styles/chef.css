@@ -376,7 +376,8 @@
 
 
 .foodimg>img:hover{
-    transform: scale(1.1); 
+    transform: scale(1.1);
+    transition: scale 0.3s; 
     opacity: .7;
   position: relative;
   z-index: 99;

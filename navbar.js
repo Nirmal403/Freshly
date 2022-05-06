@@ -15,7 +15,7 @@ const navbar=()=>{
             </div>
             <div id="pages">
                 <div>
-                    <a href="">Plans & Menu</a>
+                    <a href="./productpage.html">Plans & Menu</a>
                 </div>
                 <div>
                     <a href="">How it Works</a>

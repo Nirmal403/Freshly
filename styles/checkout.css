@@ -1,0 +1,139 @@
+#items{
+    border: 5px solid blue;
+    width: 50%;
+    /* margin-left: 70%; */
+}    
+    
+    
+    .mainbox{
+        border: 1px solid green;
+        width: 300px;
+        height: 110px;
+        display: flex;
+        margin-bottom: 10px;
+        margin: auto;
+       
+      
+
+    }
+    .proName{
+        margin-left: 5px;
+    }
+
+    .pic{
+        margin-top: 7px;
+        width: 100px;
+        height: 100px;
+        border: 1px solid red;
+       
+    }
+
+ 
+
+
+    #items>h3{
+        font-family: FavoritFreshly,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: 500;
+        color: #303030;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+
+    #page{
+        display: flex;
+        border: 1px solid red;
+        width: 80%;
+        margin: auto;
+    }
+
+    #checkout{
+        /* width: 50%; */
+        border: 5px solid green;
+        padding: 20px;
+    }
+    #page>div{
+        width: 50%;
+        /* border: 1px solid red; */
+    }
+  
+    #fullname , #address1, #address2, #email{
+        width: 90%;
+        border: 1px solid #717171;
+        margin-top: -4px;
+       
+    }
+
+    h4{
+        margin-left: 15px;
+        font-family: FavoritFreshly,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+    line-height: 1.5;
+    color: #303030;
+    text-align: left;
+    margin-bottom: 4px;
+    /* border: 1px solid red; */
+    
+    }
+     #firstname, #lastname, #fullname, #address1, #address2, #city , #State , #Zip , #email {
+        margin-left: 15px;
+        height:20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: -4px;
+    color: #303030;
+    background-color: #fff;
+    }
+
+    #city1{
+        display: flex;
+    }
+
+    #firstname, #lastname, #city, #State, #Zip ,#email{
+        width: 70%;
+    }
+
+    #name{
+        display: flex;
+    }
+    #checkoutdetails>h3{
+        font-size: 1.25rem; 
+        /* letter-spacing: .25px; */
+        line-height: 1.5rem;
+        /* padding-top: 1.5rem;     */
+        font-family: FavoritFreshly,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: 600;
+    }
+
+    #total{
+        font-size: 1.25rem; 
+        /* letter-spacing: .25px; */
+        line-height: 1.5rem;
+        /* padding-top: 1.5rem;     */
+        font-family: FavoritFreshly,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: 600;
+        margin-left: 15px;
+    }
+
+    #confirm{
+        padding: 13px 16px 12px;
+        background-color: #3167ff;
+        color: #fff;
+        font-size: 18px;
+        line-height: 1.33em;
+        letter-spacing: .5px;
+        text-decoration: none;
+        text-transform: capitalize;
+        width: 90%;
+        height: 50px;
+        margin-top: 10px;
+        border: #3167ff;
+    }
+
+    #Zip{
+        width: 150px;
+        margin-right: 32px;
+    }
+    
