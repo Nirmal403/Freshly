@@ -23,6 +23,7 @@
     font-size: .875rem;
     line-height: 1.43em;
     font-weight: 400;
+    background-color: white;
     /* border: 1px solid red; */
 }
 #navbar>div>img{
@@ -57,6 +58,7 @@
     
     width: 23%;
     /* border: 1px solid red ; */
+    background-color: white;
 }
 #navbar1>div{
     
@@ -89,6 +91,9 @@
     font-weight: 700;
     font-family: sans-serif;
     margin: auto;
+    background-color: white;
+    /* border: 1px solid red; */
+
 }
 #pages>div>a:hover{
     color: #3167ff;

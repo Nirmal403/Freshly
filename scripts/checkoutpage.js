@@ -32,10 +32,10 @@ let showdata = (el)=>{
 
 showdata(checkout);
 
+let popup1 = document.getElementById("popup");
 
-let popup = document.getElementById("popup");
 function onclickNext(){
-
+  
     var retrievedObject = localStorage.getItem('owner');
 
 var obj ={
@@ -55,14 +55,18 @@ for (var key in obj)
 }
 
 
-    // popup.classList.add("open-popup");
-
 
 }
 
-// function closePopup(){
-//     popup.classList.remove("open-popup");
-// }
+
+function onclickNext(){
+    popup1.classList.add("open-popup");
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup");
+    window.location.href="./index.html"
+}
 
 
 

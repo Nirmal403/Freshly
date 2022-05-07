@@ -3,6 +3,7 @@
 
 .carousel-cell-h::before{
     display:none;
+    /* background-color: white; */
 }
 .carousel-cell-h>img{
     /* width:360px; */
@@ -10,6 +11,7 @@
     margin: auto;
    border-radius: 10px;
    /* border: 1px solid red; */
+   background-color: white;
 }
 .carousel-cell-h{
     width:360px;
@@ -24,6 +26,7 @@
        display:block;
        width:81%;
        margin:auto;
+       background-color: white;
    }
 #excitement{
     display:flex;

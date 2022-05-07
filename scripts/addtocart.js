@@ -53,14 +53,20 @@ var cart =  JSON.parse(localStorage.getItem("cartPage"));
 
 
      var count;
-
+     var subtotal;
+     var initial = 46.3;
      document.getElementById("count").innerHTML="";
-     if(cart == []){
+     if(cart == ""){
          count = "";
+         subtotal=0;
      }
      else{
          count = cart.length + 0;
+         subtotal = (count *initial).toFixed(2);
+         
      }
+     document.getElementById("price").append(subtotal);
+     console.log(subtotal);
       document.getElementById("count").append(count);
       //  cart.push(e);
        console.log(count);

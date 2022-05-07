@@ -64,7 +64,7 @@
         padding: 20px;
     }
     #checkout:hover{
-        box-shadow: 0 3px 6px 0 rgb(0 0 0 / 22%);
+        /* box-shadow: 0 3px 6px 0 rgb(0 0 0 / 22%); */
     }
     #page>div{
         width: 50%;
@@ -181,7 +181,12 @@
         margin-top: 10px;
         border: #3167ff;
     }
-
+    
+    #confirm:hover{
+        cursor: pointer;
+        box-shadow: 6px 6px 6px 0px rgb(0 4 0 / 32%);
+        
+    }
     #Zip{
         width: 150px;
         margin-right: 32px;
